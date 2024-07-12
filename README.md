@@ -28,5 +28,6 @@ Before you begin, ensure you have met the following requirements:
 
    `npm install`
 
-2. Start the server
+2. Start the server:
+
    `ng serve`
