@@ -1,0 +1,23 @@
+.title {
+  text-align: center;
+}
+.employee-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+mat-dialog-content {
+  overflow: hidden;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+mat-dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 16px;
+}

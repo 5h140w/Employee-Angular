@@ -1,27 +1,32 @@
-# Test1
+# Employee Management Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
+This is a simple employee management application built with Angular. It allows users to view, add, and delete employee records through a responsive and interactive interface.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **View Employees:** Display a list of employees with pagination, sorting, and filtering options.
+- **Add Employee:** Add new employees using a form within a modal dialog.
+- **Delete Employee:** Remove existing employees from the list.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular:** Frontend framework for building the user interface.
+- **Angular Material:** UI component library for Angular that provides Material Design components.
+- **RxJS:** Reactive Extensions for JavaScript for handling asynchronous operations.
+- **TypeScript:** Typed superset of JavaScript that compiles to plain JavaScript.
 
-## Build
+## Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Before you begin, ensure you have met the following requirements:
 
-## Running unit tests
+- Node.js and npm installed globally on your machine.
+- Angular CLI (`npm install -g @angular/cli`) installed globally.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Installation
 
-## Running end-to-end tests
+1. Install dependencies:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   `npm install`
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+2. Start the server
+   `ng serve`
